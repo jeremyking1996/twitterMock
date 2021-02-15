@@ -2,3 +2,34 @@
     flex: 0.3;
 }
 
+.widgetsInput {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgetsInput > input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+
+.widgetsSearchP{
+    color: gray;
+}
+
+widgetsContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+widgetsContainer > h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
